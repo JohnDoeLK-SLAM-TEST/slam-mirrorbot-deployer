@@ -1,3 +1,3 @@
-FROM flmorse/johndoelk-slam-test:latest
+FROM flmorse/woodland-elf-woodland-elf-docker:latest
 WORKDIR /usr/src/app
 COPY . .

@@ -1,0 +1,13 @@
+{
+    "env": {
+        "CONFIG_FILE_URL": {
+            "description": "The RAW link of the config.env file",
+            "required": "true"
+        }
+    },
+    "stack": "container",
+    "addons": [{
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
